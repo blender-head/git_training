@@ -55,3 +55,7 @@
 6. Delete file:
 
 	git rm file
+
+7. Rename file:
+
+	git mv old_file_name new_file_name
