@@ -1,0 +1,39 @@
+1. Git Configuration:
+
+	- System Level:
+
+		- /etc/gitconfig (Linux)
+		- C:\Program Files\Git\etc\gitconfig
+		- git config --system
+
+	- User Level:
+
+		- ~/.gitconfig (Linux)
+		- C:\Users\Andre\.gitconfig (Windows)
+		- git config --global
+		  e.g: 
+		  	git config --global user.name "Andre Hartiwan"
+		  	git config --global user.email "blwfish705@gmail.com"
+
+	- Project Level:
+
+		- project_name/.git/config
+		- git config
+
+	- See configuration:
+
+		git config --list (see all configuration)
+		git config user.name (see username configuration)
+
+	- Set default editor:
+
+		git config --global core.editor "editor_name"
+		e.g: git config --global core.editor "notepad.exe"
+
+2. Git help:
+
+	git help
+
+3. Git init:
+
+	git init
