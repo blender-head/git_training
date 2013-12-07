@@ -30,11 +30,11 @@
 		git config --global core.editor "editor_name"
 		e.g: git config --global core.editor "notepad.exe"
 
-2. Git help:
+2. Getting help:
 
 	git help
 
-3. Git init:
+3. Initialize a git:
 
 	git init
 
