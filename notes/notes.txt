@@ -51,3 +51,7 @@
 
 	git diff
 	git diff --staged (see diff on the stage)
+
+6. Delete file:
+
+	git rm file
