@@ -46,3 +46,7 @@
 	git log --until=2013-12-7 (see log to 07-12-2013)
 	git log --author="Andre Hartiwan" (see commits by specific author)
 	git log --grep="Init" (search commits using regular expression)
+
+5. Viewing changes:
+
+	git diff
