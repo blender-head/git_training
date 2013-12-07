@@ -40,4 +40,9 @@
 
 4. Viewing commit logs:
 
-	git log
+	git log (see all log)
+	git log -n 1 (just return one log)
+	git log --since=2013-12-5 (see log from 05-12-2013)
+	git log --until=2013-12-7 (see log to 07-12-2013)
+	git log --author="Andre Hartiwan" (see commits by specific author)
+	git log --grep="Init" (search commits using regular expression)
