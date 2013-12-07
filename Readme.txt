@@ -1,0 +1,1 @@
+A Git Essential training from Lynda.com
